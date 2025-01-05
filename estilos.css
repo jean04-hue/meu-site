@@ -1,0 +1,151 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #645b57, #faf9f9);
+    color: #331414;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    text-align: center;
+    color: #bb0909;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilos para Habilidades Técnicas */
+h2 {
+    color: #e74c3c;
+    margin: 20px 0;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para Projetos Pessoais */
+h2 {
+    color: #2980b9;
+}
+
+li {
+    margin: 10px 0;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: rgba(41, 128, 185, 0.2);
+}
+
+/* Estilos para Depoimentos */
+blockquote {
+    font-style: italic;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-left: 5px solid #e74c3c;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para Certificações */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Estilos para Interesses Pessoais */
+h2 {
+    color: #27ae60;
+}
+
+/* Estilos para Contato */
+h2 {
+    color: #e67e22;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+/* Estilos para Formulário de Contato */
+form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #1abc9c;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #777;
+}
+
+/* Estilo do contêiner */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
